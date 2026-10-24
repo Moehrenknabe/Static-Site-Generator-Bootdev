@@ -64,6 +64,3 @@ def md_to_html_node(md: str):
 
     return div_node
 
-if __name__ == "__main__":
-    block ="### My Heading"
-    print(md_to_html_node(block))

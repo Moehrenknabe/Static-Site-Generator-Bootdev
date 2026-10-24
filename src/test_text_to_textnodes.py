@@ -1,5 +1,5 @@
 import unittest 
-from text_to_textnodes import text_to_textnodes
+from inline_markdown import text_to_textnodes
 from textnode import TextNode, TextType
 
 class test_combination_string(unittest.TestCase):
